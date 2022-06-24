@@ -1,0 +1,31 @@
+.taskitem{
+   width:15rem;
+   height: auto;
+   background-color: white;
+   margin-left: 4rem;
+   margin-bottom: 2rem;
+   border: aliceblue solid 1px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   display: inline-block;
+   
+}
+.taskitem p{
+    font-size: 1.2rem;
+    margin-left: 5px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.taskitem h1{
+    margin-left: 5px;
+    font-size: 1.3rem;
+    font-family: 'Fira Sans', sans-serif;   
+}
+.taskitem button{
+    color:#FAC213;
+    background-color: white;
+    border: none;
+    position: relative;
+    left:80%;
+    bottom:9%;
+    cursor: pointer;
+}

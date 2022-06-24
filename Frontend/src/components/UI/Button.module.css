@@ -1,0 +1,19 @@
+.button{
+    border-radius:20px;
+    cursor: pointer;
+    background-color: #FAC213;
+    border: none;
+    width:15rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    color:white;
+    font-family: 'Charis SIL', serif;
+    margin-bottom: 3rem;
+}
+.centered{
+    text-align: center;
+}
+
+
+
+
