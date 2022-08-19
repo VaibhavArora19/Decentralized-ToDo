@@ -5,7 +5,7 @@ import classes from "./TaskList.module.css";
 
 const TaskList = (props) => {
   if(!props.account.accountAddress){
-    return <p className={classes.noTask}>Please Connect your Wallet first!!</p>
+    return <p className={classes.noTask}>Please Connect your Wallet first and switch to Rinkeby testnet!!</p>
   }
   if (props.tasks.length === 0) {
     return <p className={classes.noTask}>No Tasks added. Add Some!!</p>;
